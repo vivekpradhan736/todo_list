@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
     taskList.innerHTML = "";
     filteredTasks.forEach((task, index) => {
       const taskElement = document.createElement("div");
-      taskElement.className = `task-item bg-white rounded-lg shadow-md p-4 ${
+      taskElement.className = `task-item cursor-move bg-white rounded-lg shadow-md p-4 ${
         task.completed ? "opacity-50" : ""
       }`;
       taskElement.setAttribute("data-id", index);
