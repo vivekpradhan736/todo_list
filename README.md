@@ -12,6 +12,9 @@ Duration: August to September 2024
 
 ### Project: To-Do List Web Application (Task - 1)
 
+<img src="./assets/pic1.png" alt="Alt text"  />
+
+
 ### Objective
 
 The objective of this project is to develop an advanced, user-friendly to-do list application that allows users to efficiently manage and organize their daily tasks. The app includes features for adding, editing, deleting, and filtering tasks, providing users with an intuitive way to track their progress and ensure productivity.
