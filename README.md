@@ -8,26 +8,37 @@ Domain: WEB DEVELOPMENT
 
 Duration: August to September 2024
 
-Currently, two official plugins are available:
+## Overview of the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Project: To-Do List Web Application (Task - 1)
 
-## Expanding the ESLint configuration
+### Objective
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+The objective of this project is to develop an advanced, user-friendly to-do list application that allows users to efficiently manage and organize their daily tasks. The app includes features for adding, editing, deleting, and filtering tasks, providing users with an intuitive way to track their progress and ensure productivity.
 
-- Configure the top-level `parserOptions` property like this:
+### Key Activities
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- Task Management: Users can add, edit, delete, and mark tasks as completed or incomplete.
+- Task Filters: Tasks can be filtered by priority, tags, and due date range.
+- Drag-and-Drop Reordering: Tasks can be reordered using a drag-and-drop interface for ease of management.
+- Task Completion Rate Chart: A dynamic chart displays task completion rates, providing users with a visual representation of their progress.
+- Local Storage: All tasks are stored in the browser's local storage, ensuring data persistence across sessions without the need for a backend.
+- Editable Task Fields: Users can update task details such as title, description, due date, priority, and tags.
+- Date Picker: The app uses a date picker for easy selection of due dates.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Technologies Used
+
+- HTML5 and CSS3: For structuring and styling the application.
+- JavaScript: For dynamic task management, event handling, and interactivity.
+- Tailwind CSS: A utility-first CSS framework for responsive design and styling.
+- Flatpickr: A lightweight date picker library for selecting due dates.
+- SortableJS: For implementing the drag-and-drop functionality.
+- Chart.js: For creating a task completion rate chart.
+- Local Storage: To store tasks and retain data across sessions.
+
+### Key Insights
+
+- User Experience Matters: Implementing an intuitive UI and drag-and-drop features made the application more engaging and user-friendly.
+- Efficient Task Filtering: Adding filter functionality by date, tags, and priority enhances task organization and helps users focus on important tasks.
+- Data Persistence with Local Storage: Storing tasks in local storage allowed the app to function offline and retain tasks across browser sessions, enhancing user convenience.
+- Dynamic Feedback with Charts: Visualizing task completion with a chart provided users with clear feedback on their productivity, which can motivate them to complete more tasks.
